@@ -1,0 +1,57 @@
+.navbar{
+    color: #464646;
+    /*background-color: rgb(212, 226, 238); */
+    height: 30px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    z-index: 999;
+}
+
+.top-left,.top-right{
+    flex: 3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.top-center{
+    flex: 6;
+}
+
+.top-img{
+    width: 25px;
+    height: 27x;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-icon{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.top-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.top-list-item{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.top-search{
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+

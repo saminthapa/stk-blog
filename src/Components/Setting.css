@@ -1,0 +1,86 @@
+.setting{
+    display: flex;
+}
+
+.setting-wrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.setting-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting-update-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+.setting-delete-title{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.setting-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.setting-p{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.setting-p > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.setting-p-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 40%;
+    background-color: lightcoral;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.setting-form > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.setting-form > input{
+    color:  gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.setting-submit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(236, 133, 98);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.setting-submit:hover{
+    background-color: rgb(255, 64, 0);
+}

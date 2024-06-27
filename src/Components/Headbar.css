@@ -1,0 +1,30 @@
+.headbar{
+    margin-top: 60px;
+}
+
+.headbar-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #605656;
+}
+
+.headbar-title-sm{
+    position: absolute;
+    top: 12%;
+    font-size: 30px;
+}
+
+.headbar-title-lg{
+    position: absolute;
+    top: 15%;
+    font-size: 100px;
+}
+
+.headbar-img{
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    object-fit: cover;
+}
